@@ -4,7 +4,7 @@
 using namespace std;
 
 // =====================================
-// 🔹 ABSTRACT BASE CLASS (OOP: Abstraction)
+// ABSTRACT BASE CLASS
 // =====================================
 class BaseSystem {
 public:
@@ -14,7 +14,7 @@ public:
 };
 
 // =====================================
-// 🔹 LOGIN / SIGNUP SYSTEM
+//  LOGIN / SIGNUP SYSTEM
 // =====================================
 class UserSystem : public BaseSystem {
 private:
@@ -38,7 +38,7 @@ public:
 };
 
 // =====================================
-// 🔹 STUDENT MANAGEMENT SYSTEM
+// STUDENT MANAGEMENT SYSTEM
 // =====================================
 class StudentSystem : public BaseSystem {
 private:
@@ -68,7 +68,7 @@ private:
 };
 
 // =====================================
-// 🔹 SYSTEM MANAGER (Composition)
+//  SYSTEM MANAGER 
 // =====================================
 class SystemManager {
 private:
@@ -89,7 +89,7 @@ int main() {
 }
 
 // =====================================
-// 🟢 USER SYSTEM IMPLEMENTATION
+//  USER SYSTEM IMPLEMENTATION
 // =====================================
 bool UserSystem::handleChoice(char choice) {
     switch (choice) {
@@ -175,7 +175,7 @@ void UserSystem::recoverPassword() {
 }
 
 // =====================================
-// 🟣 STUDENT SYSTEM IMPLEMENTATION
+//  STUDENT SYSTEM IMPLEMENTATION
 // =====================================
 bool StudentSystem::handleChoice(char choice) {
     switch (choice) {
