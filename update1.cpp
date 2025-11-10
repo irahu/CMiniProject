@@ -318,7 +318,7 @@ bool StudentSystem::deleteStudent() {
 }
 
 // =====================================
-// 🧠 SYSTEM MANAGER IMPLEMENTATION
+//  SYSTEM MANAGER IMPLEMENTATION
 // =====================================
 void SystemManager::start() {
     while (true) {
